@@ -46,7 +46,7 @@ export default function MapComponent() {
     if (mapRef.current || !mapContainer.current) return;
 
     const mapboxgl = (window as any).mapboxgl;
-    mapboxgl.accessToken = "";
+    mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 
     mapRef.current = new mapboxgl.Map({
       container: mapContainer.current,

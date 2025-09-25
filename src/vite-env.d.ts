@@ -1,0 +1,1 @@
+VITE_MAPBOX_TOKEN=pk.eyJ1IjoiYXVndXN0b3d0ZyIsImEiOiJjbWZ5bDRyZzUwbHRrMmlwenphaGpmejc0In0.Se0AZfT_R2CLTXn8nYUusw
